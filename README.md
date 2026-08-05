@@ -27,13 +27,13 @@ This branch contains the numerical implementation and plotting scripts for the b
 
 ## 2. File Structure Overview
 
-├── MAM/                   # Folder containing computed data for Figure 3.1
-├── MAM.py                 # Python script to plot Figure 3.1
-├── four_dimensionMAM.m    # MATLAB script computing MAM for Figures 3.1
-├── four_dimensionSDE.m    # MATLAB script for stochastic simulation (Figure 3.2)
-├── main.m                 # Main MATLAB script to generate data/plots for Figure 3.4
-├── MAM_4D.m               # Helper function: 4D MAM solver
-├── SDE_epsilon.m          # Helper function: SDE solver under different noise parameter epsilon
-├── SDE_trajectory.m       # Helper function: Stochastic simulation
-├── LICENSE                # License file
-└── README.md              # Documentation file
+* **`MAM/`**: Folder containing pre-computed data for Figure 3.1
+* **`MAM.py`**: Python script to plot Figure 3.1
+* **`four_dimensionMAM.m`**: MATLAB script computing MAM for Figures 3.1
+* **`four_dimensionSDE.m`**: MATLAB script for stochastic simulation (Figure 3.2)
+* **`main.m`**: Main MATLAB script to generate data/plots for Figure 3.4
+* **`MAM_4D.m`**: Helper function: 4D MAM solver
+* **`SDE_epsilon.m`**: Helper function: SDE solver under different noise parameter epsilon
+* **`SDE_trajectory.m`**: Helper function: Stochastic simulation
+* **`LICENSE`**: License file
+* **`README.md`**: Documentation file
